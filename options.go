@@ -19,8 +19,9 @@ package badger
 import (
 	"time"
 
-	"github.com/dgraph-io/badger/v2/options"
-	"github.com/dgraph-io/badger/v2/table"
+	"github.com/dgraph-io/badger/options"
+	"github.com/dgraph-io/badger/table"
+	"github.com/dgraph-io/badger/y"
 )
 
 // Note: If you add a new option X make sure you also add a WithX method on Options.
